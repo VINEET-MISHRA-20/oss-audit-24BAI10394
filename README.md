@@ -1,44 +1,137 @@
-# Open Source Audit Project — Git
+#  Open Source Audit Project — Git
 
 ##  Student Details
-- Name: Vineet Mishra (24BAI10394) 
-- Course: Open Source Software  
-- Project Title: Open Source Audit — Git  
+
+* **Name:** Vineet Mishra
+* **Registration Number:** 24BAI10394
+* **Course:** Open Source Software
+* **Project Title:** Open Source Audit — Git
 
 ---
 
 ##  Project Overview
 
-This project is an in-depth study of **Git**, a widely used open-source distributed version control system. The objective of this project is to understand not only the functionality of Git but also the philosophy behind open-source software.
+This project presents a detailed study of **Git**, a widely used open-source distributed version control system. The goal of this project is to understand not only how Git works but also the philosophy behind open-source software.
 
 The project includes:
-- A detailed report covering origin, license, ethics, ecosystem, and comparison
-- Five shell scripts demonstrating Linux and scripting concepts
-- Practical interaction with Git on a Linux system
+
+* A comprehensive report covering origin, license, ethics, Linux footprint, ecosystem, and comparison
+* Five shell scripts demonstrating practical Linux and scripting concepts
+* Hands-on interaction with Git in a Linux environment
 
 ---
 
 ##  About Git
 
-Git is a distributed version control system created by Linus Torvalds in 2005. It allows developers to track changes in their code, collaborate efficiently, and maintain version history.
+Git is a distributed version control system created by Linus Torvalds in 2005. It is designed to track changes in source code and enable collaboration among developers.
 
-Key features of Git:
-- Distributed architecture (no central server required)
-- Fast and efficient performance
-- Strong support for branching and merging
-- Open-source under GPL license
+###  Key Features:
+
+* Distributed architecture (no central server required)
+* Fast and efficient performance
+* Strong branching and merging support
+* Open-source under GPL v2 license
 
 ---
 
 ##  Shell Scripts Included
 
 ###  Script 1 — System Identity Report
-Displays system information such as:
-- Kernel version
-- Logged-in user
-- System uptime
-- Current date and time
 
-**Run command:**
+Displays system information such as kernel version, user, uptime, and date.
+
+###  Script 2 — FOSS Package Inspector
+
+Checks whether Git is installed and displays its version.
+
+###  Script 3 — Disk and Permission Auditor
+
+Analyzes system directories and shows size and permissions.
+
+###  Script 4 — Log File Analyzer
+
+Reads a log file and counts occurrences of a keyword (default: "error").
+
+###  Script 5 — Open Source Manifesto Generator
+
+Takes user input and generates a personalized open-source statement.
+
+---
+
+##  Requirements
+
+* Linux environment (Ubuntu recommended)
+* Git installed
+
+### Install Git:
+
 ```bash
-bash script1.sh
+sudo apt update
+sudo apt install git
+```
+
+---
+
+##  How to Run the Project
+
+1. Clone the repository:
+
+```bash
+git clone <your-repository-link>
+```
+
+2. Navigate to the project folder:
+
+```bash
+cd oss-audit-24BAI10394
+```
+
+3. Give execution permission:
+
+```bash
+chmod +x *.sh
+```
+
+4. Run scripts:
+
+```bash
+./script1.sh
+./script2.sh
+./script3.sh
+./script4.sh /var/log/syslog
+./script5.sh
+```
+
+---
+
+##  Project Structure
+
+```
+oss-audit-24BAI10394/
+│
+├── script1.sh
+├── script2.sh
+├── script3.sh
+├── script4.sh
+├── script5.sh
+├── README.md
+```
+
+---
+
+##  Learning Outcome
+
+This project helped in:
+
+* Understanding open-source philosophy
+* Learning Git and its real-world applications
+* Gaining hands-on experience with Linux
+* Developing shell scripting skills
+
+---
+
+##  Conclusion
+
+Git is not just a version control system but a foundation of modern software development. It represents collaboration, transparency, and innovation, which are the core values of open-source software.
+
+---
